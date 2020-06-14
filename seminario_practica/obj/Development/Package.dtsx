@@ -12,8 +12,8 @@
   DTS:MaxErrorCount="3"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="184"
-  DTS:VersionGUID="{E2A63969-AFEE-4002-8650-78F4FCFDF0D2}">
+  DTS:VersionBuild="191"
+  DTS:VersionGUID="{30C51918-232A-43F7-8676-16F79F5AE18F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -135,14 +135,35 @@
           Language="CSharp"
           ReadOnlyVariables="User::Delimitador,User::ExtensionArchivo,User::FolderDestino,User::FolderError,User::FolderOrigen,User::TablaDestino">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="ST_f0632eb182fd4e1c966b73d70beeecf5.csproj"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -558,35 +579,14 @@ namespace ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -822,14 +822,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Language="CSharp"
           ReadOnlyVariables="User::Delimitador,User::ExtensionArchivo,User::FolderDestino,User::FolderError,User::FolderOrigen,User::TablaDestino">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -1245,35 +1266,14 @@ namespace ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -1509,14 +1509,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Language="CSharp"
           ReadOnlyVariables="User::Delimitador,User::ExtensionArchivo,User::FolderDestino,User::FolderError,User::FolderOrigen,User::TablaDestino">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -1797,6 +1818,74 @@ namespace ST_b581b07cd6b645b8a1a13fffaa4a5ebb
 	}
 }]]></ProjectItem>
           <ProjectItem
+            Name="Properties\Resources.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+    "rceManager")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+    "fo")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+    "):Void")]
+
+namespace ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties {
+    
+    
+    /// <summary>
+    ///   A strongly-typed resource class, for looking up localized strings, etc.
+    /// </summary>
+    // This class was auto-generated by the StronglyTypedResourceBuilder
+    // class via a tool like ResGen or Visual Studio.
+    // To add or remove a member, edit your .ResX file then rerun ResGen
+    // with the /str option, or rebuild your VS project.
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        
+        /// <summary>
+        ///   Returns the cached ResourceManager instance used by this class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if ((resourceMan == null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
             Name="Project"
             Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
 <c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
@@ -1845,6 +1934,15 @@ namespace ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties {
         }
     }
 }]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="ST_a9969685f4b54f95803b11fe2b37601c.csproj"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -1931,104 +2029,6 @@ namespace ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties {
     </VisualStudio>
   </ProjectExtensions>
 </Project>]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\Resources.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
-    "rceManager")]
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
-    "fo")]
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
-    "):Void")]
-
-namespace ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties {
-    
-    
-    /// <summary>
-    ///   A strongly-typed resource class, for looking up localized strings, etc.
-    /// </summary>
-    // This class was auto-generated by the StronglyTypedResourceBuilder
-    // class via a tool like ResGen or Visual Studio.
-    // To add or remove a member, edit your .ResX file then rerun ResGen
-    // with the /str option, or rebuild your VS project.
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class Resources {
-        
-        private static global::System.Resources.ResourceManager resourceMan;
-        
-        private static global::System.Globalization.CultureInfo resourceCulture;
-        
-        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
-        }
-        
-        /// <summary>
-        ///   Returns the cached ResourceManager instance used by this class.
-        /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
-            get {
-                if ((resourceMan == null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties.Resources", typeof(Resources).Assembly);
-                    resourceMan = temp;
-                }
-                return resourceMan;
-            }
-        }
-        
-        /// <summary>
-        ///   Overrides the current thread's CurrentUICulture property for all
-        ///   resource lookups using this strongly typed resource class.
-        /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
-            get {
-                return resourceCulture;
-            }
-            set {
-                resourceCulture = value;
-            }
-        }
-    }
-}]]></ProjectItem>
           <BinaryItem
             Name="ST_a9969685f4b54f95803b11fe2b37601c.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
@@ -2196,14 +2196,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Language="CSharp"
           ReadOnlyVariables="User::Delimitador,User::ExtensionArchivo,User::FolderDestino,User::FolderError,User::FolderOrigen,User::TablaDestino">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -2619,35 +2640,14 @@ namespace ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -2874,6 +2874,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Language="CSharp"
           ReadOnlyVariables="User::Delimitador,User::ExtensionArchivo,User::FolderDestino,User::FolderError,User::FolderOrigen,User::TablaDestino">
           <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+          <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
@@ -2992,35 +3001,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties.Settings.get_Default():ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties.Sett" +
-    "ings")]
-
-namespace ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -3204,35 +3184,34 @@ namespace ST_b581b07cd6b645b8a1a13fffaa4a5ebb
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
 
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties.Settings.get_Default():ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties.Sett" +
+    "ings")]
 
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+namespace ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="ST_c98aab70aae24d1e890b801d97781854.csproj"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -3320,14 +3299,35 @@ using System.Runtime.CompilerServices;
   </ProjectExtensions>
 </Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -3572,14 +3572,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           Language="CSharp"
           ReadOnlyVariables="User::Delimitador,User::ExtensionArchivo,User::FolderDestino,User::FolderError,User::FolderOrigen,User::TablaDestino">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -3992,35 +4013,14 @@ namespace ST_b581b07cd6b645b8a1a13fffaa4a5ebb.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_b581b07cd6b645b8a1a13fffaa4a5ebb")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -6275,6 +6275,109 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               </outputs>
             </component>
             <component
+              refId="Package\Limpieza Fechas\Conversión de datos"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Conversión de datos;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Conversión de datos"
+              name="Conversión de datos"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Limpieza Fechas\Conversión de datos.Inputs[Entrada de conversión de datos]"
+                  name="Entrada de conversión de datos">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Limpieza Fechas\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[nombreMes]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="nombreMes"
+                      lineageId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de columna derivada].Columns[nombreMes]" />
+                    <inputColumn
+                      refId="Package\Limpieza Fechas\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[semestre]"
+                      cachedDataType="i4"
+                      cachedName="semestre"
+                      lineageId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de columna derivada].Columns[semestre]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Limpieza Fechas\Conversión de datos.Outputs[Salida de conversión de datos]"
+                  exclusionGroup="1"
+                  name="Salida de conversión de datos"
+                  synchronousInputId="Package\Limpieza Fechas\Conversión de datos.Inputs[Entrada de conversión de datos]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Limpieza Fechas\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de nombreMes]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      length="10"
+                      lineageId="Package\Limpieza Fechas\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de nombreMes]"
+                      name="Copia de nombreMes"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de columna derivada].Columns[nombreMes]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Limpieza Fechas\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de semestre]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Limpieza Fechas\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de semestre]"
+                      name="Copia de semestre"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de columna derivada].Columns[semestre]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Limpieza Fechas\Conversión de datos.Outputs[Salida de error de conversión de datos]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de conversión de datos"
+                  synchronousInputId="Package\Limpieza Fechas\Conversión de datos.Inputs[Entrada de conversión de datos]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Limpieza Fechas\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Limpieza Fechas\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Limpieza Fechas\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Limpieza Fechas\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Limpieza Fechas\Convertir Fecha"
               componentClassID="Microsoft.DataConvert"
               contactInfo="Conversión de datos;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
@@ -6582,11 +6685,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               </outputs>
             </component>
             <component
-              refId="Package\Limpieza Fechas\Guardar Fecha"
+              refId="Package\Limpieza Fechas\Destino de ADO NET 2"
               componentClassID="Microsoft.ManagedComponentHost"
               contactInfo="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
               description="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC."
-              name="Guardar Fecha"
+              name="Destino de ADO NET 2"
               usesDispositions="true"
               version="2">
               <properties>
@@ -6617,7 +6720,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Limpieza Fechas\Guardar Fecha.Connections[IDbConnection]"
+                  refId="Package\Limpieza Fechas\Destino de ADO NET 2.Connections[IDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-FNFHPSN\MSSQLSERVER02.seminario201213050]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-FNFHPSN\MSSQLSERVER02.seminario201213050]"
                   description="Administrador de conexiones administrado"
@@ -6625,84 +6728,204 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               </connections>
               <inputs>
                 <input
-                  refId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET]"
+                  refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET]"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrada de destino de ADO NET">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].Columns[dia]"
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].Columns[dia]"
                       cachedDataType="i4"
                       cachedName="dia"
-                      externalMetadataColumnId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].ExternalColumns[dia]"
+                      externalMetadataColumnId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[dia]"
                       lineageId="Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[dia]" />
                     <inputColumn
-                      refId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].Columns[mes]"
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].Columns[mes]"
                       cachedDataType="i4"
                       cachedName="mes"
-                      externalMetadataColumnId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].ExternalColumns[mes]"
+                      externalMetadataColumnId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[mes]"
                       lineageId="Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]" />
                     <inputColumn
-                      refId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].Columns[anio]"
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].Columns[anio]"
                       cachedDataType="i4"
                       cachedName="anio"
-                      externalMetadataColumnId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].ExternalColumns[anio]"
+                      externalMetadataColumnId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[anio]"
                       lineageId="Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[anio]" />
                     <inputColumn
-                      refId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].Columns[Fecha]"
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].Columns[nombreMes]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="nombreMes"
+                      externalMetadataColumnId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[nombreMes]"
+                      lineageId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de columna derivada].Columns[nombreMes]" />
+                    <inputColumn
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].Columns[semestre]"
+                      cachedDataType="i4"
+                      cachedName="semestre"
+                      externalMetadataColumnId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[semestre]"
+                      lineageId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de columna derivada].Columns[semestre]" />
+                    <inputColumn
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].Columns[Fecha]"
                       cachedDataType="date"
                       cachedName="Fecha"
-                      externalMetadataColumnId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha]"
+                      externalMetadataColumnId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha]"
                       lineageId="Package\Limpieza Fechas\Convertir Fecha.Outputs[Salida de conversión de datos].Columns[Fecha]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].ExternalColumns[id_fecha]"
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[id_fecha]"
                       dataType="i4"
                       name="id_fecha" />
                     <externalMetadataColumn
-                      refId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].ExternalColumns[dia]"
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[dia]"
                       dataType="i4"
                       name="dia" />
                     <externalMetadataColumn
-                      refId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].ExternalColumns[mes]"
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[mes]"
                       dataType="i4"
                       name="mes" />
                     <externalMetadataColumn
-                      refId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].ExternalColumns[anio]"
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[anio]"
                       dataType="i4"
                       name="anio" />
                     <externalMetadataColumn
-                      refId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha]"
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[fecha]"
                       dataType="dbTimeStamp"
                       name="fecha" />
                     <externalMetadataColumn
-                      refId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET].ExternalColumns[semestre]"
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[nombreMes]"
                       dataType="wstr"
-                      length="128"
+                      length="50"
+                      name="nombreMes" />
+                    <externalMetadataColumn
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[semestre]"
+                      dataType="i4"
                       name="semestre" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Limpieza Fechas\Guardar Fecha.Outputs[Salida de error de destino de ADO NET]"
+                  refId="Package\Limpieza Fechas\Destino de ADO NET 2.Outputs[Salida de error de destino de ADO NET]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Salida de error de destino de ADO NET"
-                  synchronousInputId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET]">
+                  synchronousInputId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Limpieza Fechas\Guardar Fecha.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Limpieza Fechas\Guardar Fecha.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      lineageId="Package\Limpieza Fechas\Destino de ADO NET 2.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Limpieza Fechas\Guardar Fecha.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      refId="Package\Limpieza Fechas\Destino de ADO NET 2.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Limpieza Fechas\Guardar Fecha.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      lineageId="Package\Limpieza Fechas\Destino de ADO NET 2.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Limpieza Fechas\NombreMes_semestre"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="NombreMes_semestre"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Limpieza Fechas\NombreMes_semestre.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Limpieza Fechas\NombreMes_semestre.Inputs[Entrada de columna derivada].Columns[mes]"
+                      cachedDataType="i4"
+                      cachedName="mes"
+                      lineageId="Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\Limpieza Fechas\NombreMes_semestre.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de columna derivada].Columns[nombreMes]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      length="10"
+                      lineageId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de columna derivada].Columns[nombreMes]"
+                      name="nombreMes"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">#{Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]} == 1 ? "Enero" : (#{Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]} == 2 ? "Febrero" : (#{Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]} == 3 ? "Marzo" : (#{Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]} == 4 ? "Abril" : (#{Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]} == 5 ? "Mayo" : (#{Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]} == 6 ? "Junio" : (#{Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]} == 7 ? "Julio" : (#{Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]} == 8 ? "Agosto" : (#{Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]} == 9 ? "Septiembre" : (#{Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]} == 10 ? "Octubre" : (#{Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]} == 11 ? "Noviembre" : "Diciembre"))))))))))</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">mes == 1 ? "Enero" : (mes == 2 ? "Febrero" : (mes == 3 ? "Marzo" : (mes == 4 ? "Abril" : (mes == 5 ? "Mayo" : (mes == 6 ? "Junio" : (mes == 7 ? "Julio" : (mes == 8 ? "Agosto" : (mes == 9 ? "Septiembre" : (mes == 10 ? "Octubre" : (mes == 11 ? "Noviembre" : "Diciembre"))))))))))</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de columna derivada].Columns[semestre]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de columna derivada].Columns[semestre]"
+                      name="semestre"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">#{Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada].Columns[mes]} &gt; 6 ? 2 : 1</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">mes &gt; 6 ? 2 : 1</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\Limpieza Fechas\NombreMes_semestre.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -7316,14 +7539,24 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
               startId="Package\Limpieza Fechas\Columna Vacia.Outputs[ColumnaVacia]" />
             <path
               refId="Package\Limpieza Fechas.Paths[Salida de columna derivada]"
-              endId="Package\Limpieza Fechas\Guardar Fecha.Inputs[Entrada de destino de ADO NET]"
+              endId="Package\Limpieza Fechas\NombreMes_semestre.Inputs[Entrada de columna derivada]"
               name="Salida de columna derivada"
               startId="Package\Limpieza Fechas\Columna derivada.Outputs[Salida de columna derivada]" />
+            <path
+              refId="Package\Limpieza Fechas.Paths[Salida de columna derivada1]"
+              endId="Package\Limpieza Fechas\Conversión de datos.Inputs[Entrada de conversión de datos]"
+              name="Salida de columna derivada"
+              startId="Package\Limpieza Fechas\NombreMes_semestre.Outputs[Salida de columna derivada]" />
             <path
               refId="Package\Limpieza Fechas.Paths[Salida de conversión de datos]"
               endId="Package\Limpieza Fechas\Columna derivada.Inputs[Entrada de columna derivada]"
               name="Salida de conversión de datos"
               startId="Package\Limpieza Fechas\Convertir Fecha.Outputs[Salida de conversión de datos]" />
+            <path
+              refId="Package\Limpieza Fechas.Paths[Salida de conversión de datos1]"
+              endId="Package\Limpieza Fechas\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de conversión de datos"
+              startId="Package\Limpieza Fechas\Conversión de datos.Outputs[Salida de conversión de datos]" />
             <path
               refId="Package\Limpieza Fechas.Paths[Salida de error de columna derivada]"
               endId="Package\Limpieza Fechas\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET]"
@@ -13330,6 +13563,42 @@ where [refTable].[fecha] = ?</property>
           Size="163,42"
           Id="Package\Cargar Sucursales"
           TopLeft="280,92" />
+        <NodeLayout
+          Size="169,42"
+          Id="Package\Cargar Vendedores"
+          TopLeft="78,165" />
+        <NodeLayout
+          Size="145,42"
+          Id="Package\Cargar Ventas"
+          TopLeft="333,163" />
+        <NodeLayout
+          Size="147,42"
+          Id="Package\Limpiar Tablas"
+          TopLeft="78,21" />
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Limpieza Articulos"
+          TopLeft="82,240" />
+        <NodeLayout
+          Size="160,42"
+          Id="Package\Limpieza Clientes"
+          TopLeft="323,242" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Limpieza Fechas"
+          TopLeft="89,408" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Limpieza Sucursales"
+          TopLeft="74,337" />
+        <NodeLayout
+          Size="179,42"
+          Id="Package\Limpieza Vendedores"
+          TopLeft="328,335" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Limpieza Ventas"
+          TopLeft="338,410" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
           TopLeft="360,65">
@@ -13386,206 +13655,6 @@ where [refTable].[fecha] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="169,42"
-          Id="Package\Cargar Vendedores"
-          TopLeft="78,165" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Restricción 2]"
-          TopLeft="361.5,134">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-199,31"
-              Start="0,0"
-              End="-199,23.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,11.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,11.5"
-                    Point2="0,15.5"
-                    Point3="-4,15.5" />
-                  <mssgle:LineSegment
-                    End="-195,15.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-195,15.5"
-                    Point2="-199,15.5"
-                    Point3="-199,19.5" />
-                  <mssgle:LineSegment
-                    End="-199,23.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="145,42"
-          Id="Package\Cargar Ventas"
-          TopLeft="333,163" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Restricción 3]"
-          TopLeft="247,185">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="86,0"
-              Start="0,0"
-              End="78.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="78.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="147,42"
-          Id="Package\Limpiar Tablas"
-          TopLeft="78,21" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Restricción 4]"
-          TopLeft="225,43">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="58,0"
-              Start="0,0"
-              End="50.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="50.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="163,42"
-          Id="Package\Limpieza Articulos"
-          TopLeft="82,240" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Restricción 5]"
-          TopLeft="405.5,205">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-242,35"
-              Start="0,0"
-              End="-242,27.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,13.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,13.5"
-                    Point2="0,17.5"
-                    Point3="-4,17.5" />
-                  <mssgle:LineSegment
-                    End="-238,17.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-238,17.5"
-                    Point2="-242,17.5"
-                    Point3="-242,21.5" />
-                  <mssgle:LineSegment
-                    End="-242,27.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="160,42"
-          Id="Package\Limpieza Clientes"
-          TopLeft="323,242" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Restricción 6]"
-          TopLeft="245,262">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="78,0"
-              Start="0,0"
-              End="70.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="70.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="173,42"
-          Id="Package\Limpieza Sucursales"
-          TopLeft="74,337" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Restricción 7]"
-          TopLeft="403,284">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-242.5,53"
-              Start="0,0"
-              End="-242.5,45.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,22.5"
-                    Point2="0,26.5"
-                    Point3="-4,26.5" />
-                  <mssgle:LineSegment
-                    End="-238.5,26.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-238.5,26.5"
-                    Point2="-242.5,26.5"
-                    Point3="-242.5,30.5" />
-                  <mssgle:LineSegment
-                    End="-242.5,45.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="179,42"
-          Id="Package\Limpieza Vendedores"
-          TopLeft="328,335" />
-        <NodeLayout
-          Size="156,42"
-          Id="Package\Limpieza Fechas"
-          TopLeft="89,408" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 10]"
           TopLeft="417.5,377">
@@ -13621,6 +13690,174 @@ where [refTable].[fecha] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 2]"
+          TopLeft="361.5,134">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-199,31"
+              Start="0,0"
+              End="-199,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.5"
+                    Point2="0,15.5"
+                    Point3="-4,15.5" />
+                  <mssgle:LineSegment
+                    End="-195,15.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-195,15.5"
+                    Point2="-199,15.5"
+                    Point3="-199,19.5" />
+                  <mssgle:LineSegment
+                    End="-199,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 3]"
+          TopLeft="247,185">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="86,0"
+              Start="0,0"
+              End="78.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="78.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 4]"
+          TopLeft="225,43">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="58,0"
+              Start="0,0"
+              End="50.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="50.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 5]"
+          TopLeft="405.5,205">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-242,35"
+              Start="0,0"
+              End="-242,27.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.5"
+                    Point2="0,17.5"
+                    Point3="-4,17.5" />
+                  <mssgle:LineSegment
+                    End="-238,17.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-238,17.5"
+                    Point2="-242,17.5"
+                    Point3="-242,21.5" />
+                  <mssgle:LineSegment
+                    End="-242,27.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 6]"
+          TopLeft="245,262">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="78,0"
+              Start="0,0"
+              End="70.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="70.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 7]"
+          TopLeft="403,284">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-242.5,53"
+              Start="0,0"
+              End="-242.5,45.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.5"
+                    Point2="0,26.5"
+                    Point3="-4,26.5" />
+                  <mssgle:LineSegment
+                    End="-238.5,26.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-238.5,26.5"
+                    Point2="-242.5,26.5"
+                    Point3="-242.5,30.5" />
+                  <mssgle:LineSegment
+                    End="-242.5,45.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 8]"
           TopLeft="247,357">
           <EdgeLayout.Curve>
@@ -13642,10 +13879,6 @@ where [refTable].[fecha] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="155,42"
-          Id="Package\Limpieza Ventas"
-          TopLeft="338,410" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 9]"
           TopLeft="245,430">
@@ -13677,13 +13910,29 @@ where [refTable].[fecha] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="162,42"
+          Id="Package\Limpieza Articulos\Quitar Duplicados"
+          TopLeft="240.857142857143,288" />
+        <NodeLayout
+          Size="186,42"
+          Id="Package\Limpieza Articulos\Destino de ADO NET 1"
+          TopLeft="231,412" />
+        <NodeLayout
           Size="172,42"
           Id="Package\Limpieza Articulos\Origen de ADO NET"
           TopLeft="377,57" />
         <NodeLayout
+          Size="176,42"
+          Id="Package\Limpieza Articulos\Destino de ADO NET"
+          TopLeft="929,284" />
+        <NodeLayout
           Size="152,42"
           Id="Package\Limpieza Articulos\Codigo No Nulo"
           TopLeft="386,143" />
+        <NodeLayout
+          Size="148,42"
+          Id="Package\Limpieza Articulos\Columna Vacia"
+          TopLeft="532,271" />
         <EdgeLayout
           Id="Package\Limpieza Articulos.Paths[Salida de origen de ADO NET]"
           TopLeft="462.5,99">
@@ -13703,53 +13952,35 @@ where [refTable].[fecha] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="148,42"
-          Id="Package\Limpieza Articulos\Columna Vacia"
-          TopLeft="532,271" />
         <EdgeLayout
-          Id="Package\Limpieza Articulos.Paths[ColumnaVacia]"
-          TopLeft="462,185">
+          Id="Package\Limpieza Articulos.Paths[Salida de ordenación]"
+          TopLeft="322.928571428571,330">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="144,86"
+              EndConnector="0,82"
               Start="0,0"
-              End="144,78.5">
+              End="0,74.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,39"
-                    Point2="0,43"
-                    Point3="4,43" />
-                  <mssgle:LineSegment
-                    End="140,43" />
-                  <mssgle:CubicBezierSegment
-                    Point1="140,43"
-                    Point2="144,43"
-                    Point3="144,47" />
-                  <mssgle:LineSegment
-                    End="144,78.5" />
+                    End="0,74.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="40.51912109375,48,62.9617578125,9.7490234375"
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="176,42"
-          Id="Package\Limpieza Articulos\Destino de ADO NET"
-          TopLeft="929,284" />
         <EdgeLayout
           Id="Package\Limpieza Articulos.Paths[Salida de error de división condicional]"
           TopLeft="498,185">
@@ -13786,10 +14017,42 @@ where [refTable].[fecha] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="162,42"
-          Id="Package\Limpieza Articulos\Quitar Duplicados"
-          TopLeft="240.857142857143,288" />
+        <EdgeLayout
+          Id="Package\Limpieza Articulos.Paths[ColumnaVacia]"
+          TopLeft="462,185">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="144,86"
+              Start="0,0"
+              End="144,78.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,39"
+                    Point2="0,43"
+                    Point3="4,43" />
+                  <mssgle:LineSegment
+                    End="140,43" />
+                  <mssgle:CubicBezierSegment
+                    Point1="140,43"
+                    Point2="144,43"
+                    Point3="144,47" />
+                  <mssgle:LineSegment
+                    End="144,78.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="40.51912109375,48,62.9617578125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Limpieza Articulos.Paths[ColumnaNoVacia]"
           TopLeft="426,185">
@@ -13826,35 +14089,17 @@ where [refTable].[fecha] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="186,42"
-          Id="Package\Limpieza Articulos\Destino de ADO NET 1"
-          TopLeft="231,412" />
-        <EdgeLayout
-          Id="Package\Limpieza Articulos.Paths[Salida de ordenación]"
-          TopLeft="322.928571428571,330">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,82"
-              Start="0,0"
-              End="0,74.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,74.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Limpieza Articulos\Destino de ADO NET 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Limpieza Articulos\Origen de ADO NET">
     <Properties>
@@ -13877,13 +14122,29 @@ where [refTable].[fecha] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="171,42"
+          Id="Package\Limpieza Clientes\División condicional"
+          TopLeft="372,172" />
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Limpieza Clientes\Eliminar Repetidos"
+          TopLeft="261,276" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Limpieza Clientes\Destino de ADO NET"
+          TopLeft="825,165" />
+        <NodeLayout
           Size="172,42"
           Id="Package\Limpieza Clientes\Origen de ADO NET"
           TopLeft="377,57" />
         <NodeLayout
-          Size="171,42"
-          Id="Package\Limpieza Clientes\División condicional"
-          TopLeft="372,172" />
+          Size="186,42"
+          Id="Package\Limpieza Clientes\Destino de ADO NET 1"
+          TopLeft="242,368" />
+        <NodeLayout
+          Size="145,42"
+          Id="Package\Limpieza Clientes\ColumnaVacía"
+          TopLeft="549,278" />
         <EdgeLayout
           Id="Package\Limpieza Clientes.Paths[Salida de origen de ADO NET]"
           TopLeft="460.25,99">
@@ -13906,10 +14167,40 @@ where [refTable].[fecha] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="176,42"
-          Id="Package\Limpieza Clientes\Destino de ADO NET"
-          TopLeft="825,165" />
+        <EdgeLayout
+          Id="Package\Limpieza Clientes.Paths[Salida de ordenación]"
+          TopLeft="344,318">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-9,50"
+              Start="0,0"
+              End="-9,42.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21"
+                    Point2="0,25"
+                    Point3="-4,25" />
+                  <mssgle:LineSegment
+                    End="-5,25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5,25"
+                    Point2="-9,25"
+                    Point3="-9,29" />
+                  <mssgle:LineSegment
+                    End="-9,42.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Limpieza Clientes.Paths[Salida de error de división condicional]"
           TopLeft="543,189.5">
@@ -13934,10 +14225,6 @@ where [refTable].[fecha] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="145,42"
-          Id="Package\Limpieza Clientes\ColumnaVacía"
-          TopLeft="549,278" />
         <EdgeLayout
           Id="Package\Limpieza Clientes.Paths[ColumnaVacia]"
           TopLeft="457.5,214">
@@ -13974,10 +14261,6 @@ where [refTable].[fecha] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="166,42"
-          Id="Package\Limpieza Clientes\Eliminar Repetidos"
-          TopLeft="261,276" />
         <EdgeLayout
           Id="Package\Limpieza Clientes.Paths[ColumnaNoVacia]"
           TopLeft="430.333333333333,214">
@@ -14014,49 +14297,11 @@ where [refTable].[fecha] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="186,42"
-          Id="Package\Limpieza Clientes\Destino de ADO NET 1"
-          TopLeft="242,368" />
-        <EdgeLayout
-          Id="Package\Limpieza Clientes.Paths[Salida de ordenación]"
-          TopLeft="344,318">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-9,50"
-              Start="0,0"
-              End="-9,42.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,21"
-                    Point2="0,25"
-                    Point3="-4,25" />
-                  <mssgle:LineSegment
-                    End="-5,25" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-5,25"
-                    Point2="-9,25"
-                    Point3="-9,29" />
-                  <mssgle:LineSegment
-                    End="-9,42.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Limpieza Clientes\Origen de ADO NET">
+    design-time-name="Package\Limpieza Clientes\Destino de ADO NET">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -14064,7 +14309,7 @@ where [refTable].[fecha] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Limpieza Clientes\Destino de ADO NET">
+    design-time-name="Package\Limpieza Clientes\Origen de ADO NET">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -14080,18 +14325,437 @@ where [refTable].[fecha] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
+    design-time-name="Package\Limpieza Fechas">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="148,42"
+          Id="Package\Limpieza Fechas\Columna Vacía"
+          TopLeft="620,281" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Limpieza Fechas\Destino de ADO NET"
+          TopLeft="848,150" />
+        <NodeLayout
+          Size="186,42"
+          Id="Package\Limpieza Fechas\Destino de ADO NET 1"
+          TopLeft="566,444" />
+        <NodeLayout
+          Size="164,42"
+          Id="Package\Limpieza Fechas\Origen de OLE DB"
+          TopLeft="506,40" />
+        <NodeLayout
+          Size="153,42"
+          Id="Package\Limpieza Fechas\Convertir Fecha"
+          TopLeft="281,296" />
+        <NodeLayout
+          Size="164,42"
+          Id="Package\Limpieza Fechas\Columna derivada"
+          TopLeft="237,384" />
+        <NodeLayout
+          Size="148,42"
+          Id="Package\Limpieza Fechas\Columna Vacia"
+          TopLeft="459,147" />
+        <EdgeLayout
+          Id="Package\Limpieza Fechas.Paths[Salida de error de columna derivada]"
+          TopLeft="401,405">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="165,60"
+              Start="0,0"
+              End="157.5,60">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="78.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="78.5,0"
+                    Point2="82.5,0"
+                    Point3="82.5,4" />
+                  <mssgle:LineSegment
+                    End="82.5,56" />
+                  <mssgle:CubicBezierSegment
+                    Point1="82.5,56"
+                    Point2="82.5,60"
+                    Point3="86.5,60" />
+                  <mssgle:LineSegment
+                    End="157.5,60" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="2.13597656250001,-15.7490234375,160.728046875,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Fechas.Paths[Salida de conversión de datos]"
+          TopLeft="357.5,338">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-38.5,46"
+              Start="0,0"
+              End="-38.5,38.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19"
+                    Point2="0,23"
+                    Point3="-4,23" />
+                  <mssgle:LineSegment
+                    End="-34.5,23" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-34.5,23"
+                    Point2="-38.5,23"
+                    Point3="-38.5,27" />
+                  <mssgle:LineSegment
+                    End="-38.5,38.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Fechas.Paths[ColumnaVacia]"
+          TopLeft="556.333333333333,189">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="137.666666666667,92"
+              Start="0,0"
+              End="137.666666666667,84.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33.3903743315508" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,33.3903743315508"
+                    Point2="0,37.3903743315508"
+                    Point3="4,37.3903743315508" />
+                  <mssgle:LineSegment
+                    End="133.666666666667,37.3903743315508" />
+                  <mssgle:CubicBezierSegment
+                    Point1="133.666666666667,37.3903743315508"
+                    Point2="137.666666666667,37.3903743315508"
+                    Point3="137.666666666667,41.3903743315508" />
+                  <mssgle:LineSegment
+                    End="137.666666666667,84.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="37.3524544270835,42.3903743315508,62.9617578125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Fechas.Paths[ColumnaNoVacia]"
+          TopLeft="509.666666666667,189">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-152.166666666667,107"
+              Start="0,0"
+              End="-152.166666666667,99.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.4866310160428" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,39.4866310160428"
+                    Point2="0,43.4866310160428"
+                    Point3="-4,43.4866310160428" />
+                  <mssgle:LineSegment
+                    End="-148.166666666667,43.4866310160428" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-148.166666666667,43.4866310160428"
+                    Point2="-152.166666666667,43.4866310160428"
+                    Point3="-152.166666666667,47.4866310160428" />
+                  <mssgle:LineSegment
+                    End="-152.166666666667,99.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-113.614212239584,48.4866310160428,75.0617578125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Fechas.Paths[Salida de origen de OLE DB]"
+          TopLeft="588,82">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-55,65"
+              Start="0,0"
+              End="-55,57.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28.5"
+                    Point2="0,32.5"
+                    Point3="-4,32.5" />
+                  <mssgle:LineSegment
+                    End="-51,32.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-51,32.5"
+                    Point2="-55,32.5"
+                    Point3="-55,36.5" />
+                  <mssgle:LineSegment
+                    End="-55,57.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Fechas.Paths[Salida de error de división condicional]"
+          TopLeft="607,169.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="241,0"
+              Start="0,0"
+              End="233.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="233.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="32.96220703125,5,167.5755859375,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="183,42"
+          Id="Package\Limpieza Fechas\NombreMes_semestre"
+          TopLeft="178,486" />
+        <EdgeLayout
+          Id="Package\Limpieza Fechas.Paths[Salida de columna derivada]"
+          TopLeft="319,426">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-49.5,60"
+              Start="0,0"
+              End="-49.5,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-45.5,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-45.5,30"
+                    Point2="-49.5,30"
+                    Point3="-49.5,34" />
+                  <mssgle:LineSegment
+                    End="-49.5,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="175,42"
+          Id="Package\Limpieza Fechas\Conversión de datos"
+          TopLeft="151,559" />
+        <EdgeLayout
+          Id="Package\Limpieza Fechas.Paths[Salida de columna derivada1]"
+          TopLeft="269.5,528">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-31,31"
+              Start="0,0"
+              End="-31,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.5"
+                    Point2="0,15.5"
+                    Point3="-4,15.5" />
+                  <mssgle:LineSegment
+                    End="-27,15.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-27,15.5"
+                    Point2="-31,15.5"
+                    Point3="-31,19.5" />
+                  <mssgle:LineSegment
+                    End="-31,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="186,42"
+          Id="Package\Limpieza Fechas\Destino de ADO NET 2"
+          TopLeft="307,632" />
+        <EdgeLayout
+          Id="Package\Limpieza Fechas.Paths[Salida de conversión de datos1]"
+          TopLeft="238.5,601">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="161.5,31"
+              Start="0,0"
+              End="161.5,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.5"
+                    Point2="0,15.5"
+                    Point3="4,15.5" />
+                  <mssgle:LineSegment
+                    End="157.5,15.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="157.5,15.5"
+                    Point2="161.5,15.5"
+                    Point3="161.5,19.5" />
+                  <mssgle:LineSegment
+                    End="161.5,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Limpieza Fechas\Destino de ADO NET">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Limpieza Fechas\Destino de ADO NET 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Limpieza Fechas\Origen de OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
     design-time-name="Package\Limpieza Sucursales">
     <LayoutInfo>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="142,42"
+          Id="Package\Limpieza Sucursales\Datos Finales"
+          TopLeft="89,485" />
+        <NodeLayout
+          Size="150,42"
+          Id="Package\Limpieza Sucursales\Zona Numerica"
+          TopLeft="207,244" />
+        <NodeLayout
+          Size="175,42"
+          Id="Package\Limpieza Sucursales\Conversión de datos"
+          TopLeft="329,573" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Limpieza Sucursales\Quitar Repetidos"
+          TopLeft="71,375" />
+        <NodeLayout
+          Size="145,42"
+          Id="Package\Limpieza Sucursales\ColumnaVacia"
+          TopLeft="557,242" />
+        <NodeLayout
+          Size="160,42"
+          Id="Package\Limpieza Sucursales\Guardar Sucursal"
+          TopLeft="28,645" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Limpieza Sucursales\Destino de ADO NET 2"
+          TopLeft="487,348" />
+        <NodeLayout
           Size="172,42"
           Id="Package\Limpieza Sucursales\Origen de ADO NET"
           TopLeft="409,34" />
         <NodeLayout
+          Size="176,42"
+          Id="Package\Limpieza Sucursales\Destino de ADO NET"
+          TopLeft="774,168" />
+        <NodeLayout
           Size="165,42"
           Id="Package\Limpieza Sucursales\Columna No Vacia"
           TopLeft="416,137" />
+        <NodeLayout
+          Size="152,42"
+          Id="Package\Limpieza Sucursales\Guardar Region"
+          TopLeft="351,651" />
+        <NodeLayout
+          Size="138,42"
+          Id="Package\Limpieza Sucursales\Multidifusión"
+          TopLeft="78,562" />
         <EdgeLayout
           Id="Package\Limpieza Sucursales.Paths[Salida de origen de ADO NET]"
           TopLeft="496.75,76">
@@ -14111,13 +14775,119 @@ where [refTable].[fecha] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="176,42"
-          Id="Package\Limpieza Sucursales\Destino de ADO NET"
-          TopLeft="774,168" />
+        <EdgeLayout
+          Id="Package\Limpieza Sucursales.Paths[Salida de ordenación]"
+          TopLeft="149.5,417">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="10.5,68"
+              Start="0,0"
+              End="10.5,60.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,30"
+                    Point2="0,34"
+                    Point3="4,34" />
+                  <mssgle:LineSegment
+                    End="6.5,34" />
+                  <mssgle:CubicBezierSegment
+                    Point1="6.5,34"
+                    Point2="10.5,34"
+                    Point3="10.5,38" />
+                  <mssgle:LineSegment
+                    End="10.5,60.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Sucursales.Paths[Salida de multidifusión 2]"
+          TopLeft="216,583">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="113,11"
+              Start="0,0"
+              End="105.5,11">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="52.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="52.5,0"
+                    Point2="56.5,0"
+                    Point3="56.5,4" />
+                  <mssgle:LineSegment
+                    End="56.5,7" />
+                  <mssgle:CubicBezierSegment
+                    Point1="56.5,7"
+                    Point2="56.5,11"
+                    Point3="60.5,11" />
+                  <mssgle:LineSegment
+                    End="105.5,11" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Sucursales.Paths[Salida de Multidifusión 1]"
+          TopLeft="147,604">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-39,41"
+              Start="0,0"
+              End="-39,33.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.5"
+                    Point2="0,20.5"
+                    Point3="-4,20.5" />
+                  <mssgle:LineSegment
+                    End="-35,20.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-35,20.5"
+                    Point2="-39,20.5"
+                    Point3="-39,24.5" />
+                  <mssgle:LineSegment
+                    End="-39,33.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Limpieza Sucursales.Paths[Salida de error de división condicional]"
           TopLeft="581,158">
@@ -14154,128 +14924,6 @@ where [refTable].[fecha] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Limpieza Sucursales\Quitar Repetidos"
-          TopLeft="71,375" />
-        <NodeLayout
-          Size="145,42"
-          Id="Package\Limpieza Sucursales\ColumnaVacia"
-          TopLeft="557,242" />
-        <EdgeLayout
-          Id="Package\Limpieza Sucursales.Paths[ColumnaVacia]"
-          TopLeft="524.666666666667,179">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="104.833333333333,63"
-              Start="0,0"
-              End="104.833333333333,55.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.563025210084" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,21.563025210084"
-                    Point2="0,25.563025210084"
-                    Point3="4,25.563025210084" />
-                  <mssgle:LineSegment
-                    End="100.833333333333,25.563025210084" />
-                  <mssgle:CubicBezierSegment
-                    Point1="100.833333333333,25.563025210084"
-                    Point2="104.833333333333,25.563025210084"
-                    Point3="104.833333333333,29.563025210084" />
-                  <mssgle:LineSegment
-                    End="104.833333333333,55.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="20.9357877604167,30.563025210084,62.9617578125,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="150,42"
-          Id="Package\Limpieza Sucursales\Zona Numerica"
-          TopLeft="207,244" />
-        <EdgeLayout
-          Id="Package\Limpieza Sucursales.Paths[ColumnaNoVacia]"
-          TopLeft="472.333333333333,179">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-190.333333333333,65"
-              Start="0,0"
-              End="-190.333333333333,57.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.374549819928" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,22.374549819928"
-                    Point2="0,26.374549819928"
-                    Point3="-4,26.374549819928" />
-                  <mssgle:LineSegment
-                    End="-186.333333333333,26.374549819928" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-186.333333333333,26.374549819928"
-                    Point2="-190.333333333333,26.374549819928"
-                    Point3="-190.333333333333,30.374549819928" />
-                  <mssgle:LineSegment
-                    End="-190.333333333333,57.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-132.697545572917,31.374549819928,75.0617578125,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Limpieza Sucursales.Paths[Salida de columna derivada]"
-          TopLeft="258.333333333333,286">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-108.833333333333,89"
-              Start="0,0"
-              End="-108.833333333333,81.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.1635883905013" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,32.1635883905013"
-                    Point2="0,36.1635883905013"
-                    Point3="-4,36.1635883905013" />
-                  <mssgle:LineSegment
-                    End="-104.833333333333,36.1635883905013" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-104.833333333333,36.1635883905013"
-                    Point2="-108.833333333333,36.1635883905013"
-                    Point3="-108.833333333333,40.1635883905013" />
-                  <mssgle:LineSegment
-                    End="-108.833333333333,81.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="176,42"
-          Id="Package\Limpieza Sucursales\Destino de ADO NET 2"
-          TopLeft="487,348" />
         <EdgeLayout
           Id="Package\Limpieza Sucursales.Paths[Salida de error de columna derivada]"
           TopLeft="305.666666666667,286">
@@ -14312,162 +14960,6 @@ where [refTable].[fecha] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="142,42"
-          Id="Package\Limpieza Sucursales\Datos Finales"
-          TopLeft="89,485" />
-        <EdgeLayout
-          Id="Package\Limpieza Sucursales.Paths[Salida de ordenación]"
-          TopLeft="149.5,417">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="10.5,68"
-              Start="0,0"
-              End="10.5,60.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,30"
-                    Point2="0,34"
-                    Point3="4,34" />
-                  <mssgle:LineSegment
-                    End="6.5,34" />
-                  <mssgle:CubicBezierSegment
-                    Point1="6.5,34"
-                    Point2="10.5,34"
-                    Point3="10.5,38" />
-                  <mssgle:LineSegment
-                    End="10.5,60.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="138,42"
-          Id="Package\Limpieza Sucursales\Multidifusión"
-          TopLeft="78,562" />
-        <EdgeLayout
-          Id="Package\Limpieza Sucursales.Paths[Salida de columna derivada1]"
-          TopLeft="160,527">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-13,35"
-              Start="0,0"
-              End="-13,27.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,13.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,13.5"
-                    Point2="0,17.5"
-                    Point3="-4,17.5" />
-                  <mssgle:LineSegment
-                    End="-9,17.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-9,17.5"
-                    Point2="-13,17.5"
-                    Point3="-13,21.5" />
-                  <mssgle:LineSegment
-                    End="-13,27.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="160,42"
-          Id="Package\Limpieza Sucursales\Guardar Sucursal"
-          TopLeft="28,645" />
-        <NodeLayout
-          Size="152,42"
-          Id="Package\Limpieza Sucursales\Guardar Region"
-          TopLeft="351,651" />
-        <EdgeLayout
-          Id="Package\Limpieza Sucursales.Paths[Salida de Multidifusión 1]"
-          TopLeft="147,604">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-39,41"
-              Start="0,0"
-              End="-39,33.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.5"
-                    Point2="0,20.5"
-                    Point3="-4,20.5" />
-                  <mssgle:LineSegment
-                    End="-35,20.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-35,20.5"
-                    Point2="-39,20.5"
-                    Point3="-39,24.5" />
-                  <mssgle:LineSegment
-                    End="-39,33.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="175,42"
-          Id="Package\Limpieza Sucursales\Conversión de datos"
-          TopLeft="329,573" />
-        <EdgeLayout
-          Id="Package\Limpieza Sucursales.Paths[Salida de multidifusión 2]"
-          TopLeft="216,583">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="113,11"
-              Start="0,0"
-              End="105.5,11">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="52.5,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="52.5,0"
-                    Point2="56.5,0"
-                    Point3="56.5,4" />
-                  <mssgle:LineSegment
-                    End="56.5,7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="56.5,7"
-                    Point2="56.5,11"
-                    Point3="60.5,11" />
-                  <mssgle:LineSegment
-                    End="105.5,11" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Limpieza Sucursales.Paths[Salida de conversión de datos]"
           TopLeft="416.5,615">
@@ -14499,14 +14991,176 @@ where [refTable].[fecha] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Sucursales.Paths[Salida de columna derivada1]"
+          TopLeft="160,527">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-13,35"
+              Start="0,0"
+              End="-13,27.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.5"
+                    Point2="0,17.5"
+                    Point3="-4,17.5" />
+                  <mssgle:LineSegment
+                    End="-9,17.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-9,17.5"
+                    Point2="-13,17.5"
+                    Point3="-13,21.5" />
+                  <mssgle:LineSegment
+                    End="-13,27.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Sucursales.Paths[Salida de columna derivada]"
+          TopLeft="258.333333333333,286">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-108.833333333333,89"
+              Start="0,0"
+              End="-108.833333333333,81.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.1635883905013" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,32.1635883905013"
+                    Point2="0,36.1635883905013"
+                    Point3="-4,36.1635883905013" />
+                  <mssgle:LineSegment
+                    End="-104.833333333333,36.1635883905013" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-104.833333333333,36.1635883905013"
+                    Point2="-108.833333333333,36.1635883905013"
+                    Point3="-108.833333333333,40.1635883905013" />
+                  <mssgle:LineSegment
+                    End="-108.833333333333,81.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Sucursales.Paths[ColumnaVacia]"
+          TopLeft="524.666666666667,179">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="104.833333333333,63"
+              Start="0,0"
+              End="104.833333333333,55.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.563025210084" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.563025210084"
+                    Point2="0,25.563025210084"
+                    Point3="4,25.563025210084" />
+                  <mssgle:LineSegment
+                    End="100.833333333333,25.563025210084" />
+                  <mssgle:CubicBezierSegment
+                    Point1="100.833333333333,25.563025210084"
+                    Point2="104.833333333333,25.563025210084"
+                    Point3="104.833333333333,29.563025210084" />
+                  <mssgle:LineSegment
+                    End="104.833333333333,55.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="20.9357877604167,30.563025210084,62.9617578125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Sucursales.Paths[ColumnaNoVacia]"
+          TopLeft="472.333333333333,179">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-190.333333333333,65"
+              Start="0,0"
+              End="-190.333333333333,57.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.374549819928" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.374549819928"
+                    Point2="0,26.374549819928"
+                    Point3="-4,26.374549819928" />
+                  <mssgle:LineSegment
+                    End="-186.333333333333,26.374549819928" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-186.333333333333,26.374549819928"
+                    Point2="-190.333333333333,26.374549819928"
+                    Point3="-190.333333333333,30.374549819928" />
+                  <mssgle:LineSegment
+                    End="-190.333333333333,57.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-132.697545572917,31.374549819928,75.0617578125,9.7490234375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Limpieza Sucursales\Guardar Region">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Limpieza Sucursales\Origen de ADO NET">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Limpieza Sucursales\Guardar Sucursal">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -14527,39 +15181,65 @@ where [refTable].[fecha] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="148,42"
+          Id="Package\Limpieza Vendedores\Columna Vacia"
+          TopLeft="666,301" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Limpieza Vendedores\Quitar Repetidos"
+          TopLeft="351,297" />
+        <NodeLayout
+          Size="186,42"
+          Id="Package\Limpieza Vendedores\Destino de ADO NET 1"
+          TopLeft="321,392" />
+        <NodeLayout
           Size="172,42"
           Id="Package\Limpieza Vendedores\Origen de ADO NET"
           TopLeft="476,76" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Limpieza Vendedores\Destino de ADO NET"
+          TopLeft="858,199" />
         <NodeLayout
           Size="165,42"
           Id="Package\Limpieza Vendedores\Columna No Vacia"
           TopLeft="479,201" />
         <EdgeLayout
-          Id="Package\Limpieza Vendedores.Paths[Salida de origen de ADO NET]"
-          TopLeft="561.75,118">
+          Id="Package\Limpieza Vendedores.Paths[Salida de ordenación]"
+          TopLeft="429.5,339">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,83"
+              EndConnector="-15.5,53"
               Start="0,0"
-              End="0,75.5">
+              End="-15.5,45.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,75.5" />
+                    End="0,22.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.5"
+                    Point2="0,26.5"
+                    Point3="-4,26.5" />
+                  <mssgle:LineSegment
+                    End="-11.5,26.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-11.5,26.5"
+                    Point2="-15.5,26.5"
+                    Point3="-15.5,30.5" />
+                  <mssgle:LineSegment
+                    End="-15.5,45.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="176,42"
-          Id="Package\Limpieza Vendedores\Destino de ADO NET"
-          TopLeft="858,199" />
         <EdgeLayout
           Id="Package\Limpieza Vendedores.Paths[Salida de error de división condicional]"
           TopLeft="644,221">
@@ -14581,50 +15261,6 @@ where [refTable].[fecha] = ?</property>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="19.46220703125,5,167.5755859375,10.3349609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="148,42"
-          Id="Package\Limpieza Vendedores\Columna Vacia"
-          TopLeft="666,301" />
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Limpieza Vendedores\Quitar Repetidos"
-          TopLeft="351,297" />
-        <EdgeLayout
-          Id="Package\Limpieza Vendedores.Paths[ColumnaNoVacia]"
-          TopLeft="535.333333333333,243">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-105.833333333333,54"
-              Start="0,0"
-              End="-105.833333333333,46.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.9111644657863" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.9111644657863"
-                    Point2="0,21.9111644657863"
-                    Point3="-4,21.9111644657863" />
-                  <mssgle:LineSegment
-                    End="-101.833333333333,21.9111644657863" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-101.833333333333,21.9111644657863"
-                    Point2="-105.833333333333,21.9111644657863"
-                    Point3="-105.833333333333,25.9111644657863" />
-                  <mssgle:LineSegment
-                    End="-105.833333333333,46.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-90.4475455729167,26.9111644657863,75.0617578125,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -14664,47 +15300,77 @@ where [refTable].[fecha] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="186,42"
-          Id="Package\Limpieza Vendedores\Destino de ADO NET 1"
-          TopLeft="321,392" />
         <EdgeLayout
-          Id="Package\Limpieza Vendedores.Paths[Salida de ordenación]"
-          TopLeft="429.5,339">
+          Id="Package\Limpieza Vendedores.Paths[ColumnaNoVacia]"
+          TopLeft="535.333333333333,243">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-15.5,53"
+              EndConnector="-105.833333333333,54"
               Start="0,0"
-              End="-15.5,45.5">
+              End="-105.833333333333,46.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.5" />
+                    End="0,17.9111644657863" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,22.5"
-                    Point2="0,26.5"
-                    Point3="-4,26.5" />
+                    Point1="0,17.9111644657863"
+                    Point2="0,21.9111644657863"
+                    Point3="-4,21.9111644657863" />
                   <mssgle:LineSegment
-                    End="-11.5,26.5" />
+                    End="-101.833333333333,21.9111644657863" />
                   <mssgle:CubicBezierSegment
-                    Point1="-11.5,26.5"
-                    Point2="-15.5,26.5"
-                    Point3="-15.5,30.5" />
+                    Point1="-101.833333333333,21.9111644657863"
+                    Point2="-105.833333333333,21.9111644657863"
+                    Point3="-105.833333333333,25.9111644657863" />
                   <mssgle:LineSegment
-                    End="-15.5,45.5" />
+                    End="-105.833333333333,46.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-90.4475455729167,26.9111644657863,75.0617578125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Vendedores.Paths[Salida de origen de ADO NET]"
+          TopLeft="561.75,118">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,83"
+              Start="0,0"
+              End="0,75.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,75.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Limpieza Vendedores\Destino de ADO NET 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Limpieza Vendedores\Origen de ADO NET">
     <Properties>
@@ -14721,333 +15387,6 @@ where [refTable].[fecha] = ?</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Limpieza Articulos\Destino de ADO NET 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Limpieza Vendedores\Destino de ADO NET 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Limpieza Fechas">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="148,42"
-          Id="Package\Limpieza Fechas\Columna Vacia"
-          TopLeft="459,147" />
-        <NodeLayout
-          Size="176,42"
-          Id="Package\Limpieza Fechas\Destino de ADO NET"
-          TopLeft="848,150" />
-        <EdgeLayout
-          Id="Package\Limpieza Fechas.Paths[Salida de error de división condicional]"
-          TopLeft="607,169.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="241,0"
-              Start="0,0"
-              End="233.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="233.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="32.96220703125,5,167.5755859375,10.3349609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="148,42"
-          Id="Package\Limpieza Fechas\Columna Vacía"
-          TopLeft="620,281" />
-        <EdgeLayout
-          Id="Package\Limpieza Fechas.Paths[ColumnaVacia]"
-          TopLeft="556.333333333333,189">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="137.666666666667,92"
-              Start="0,0"
-              End="137.666666666667,84.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,33.3903743315508" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,33.3903743315508"
-                    Point2="0,37.3903743315508"
-                    Point3="4,37.3903743315508" />
-                  <mssgle:LineSegment
-                    End="133.666666666667,37.3903743315508" />
-                  <mssgle:CubicBezierSegment
-                    Point1="133.666666666667,37.3903743315508"
-                    Point2="137.666666666667,37.3903743315508"
-                    Point3="137.666666666667,41.3903743315508" />
-                  <mssgle:LineSegment
-                    End="137.666666666667,84.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="37.3524544270833,42.3903743315508,62.9617578125,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="164,42"
-          Id="Package\Limpieza Fechas\Origen de OLE DB"
-          TopLeft="506,40" />
-        <EdgeLayout
-          Id="Package\Limpieza Fechas.Paths[Salida de origen de OLE DB]"
-          TopLeft="588,82">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-55,65"
-              Start="0,0"
-              End="-55,57.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,28.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,28.5"
-                    Point2="0,32.5"
-                    Point3="-4,32.5" />
-                  <mssgle:LineSegment
-                    End="-51,32.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-51,32.5"
-                    Point2="-55,32.5"
-                    Point3="-55,36.5" />
-                  <mssgle:LineSegment
-                    End="-55,57.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="153,42"
-          Id="Package\Limpieza Fechas\Convertir Fecha"
-          TopLeft="281,296" />
-        <EdgeLayout
-          Id="Package\Limpieza Fechas.Paths[ColumnaNoVacia]"
-          TopLeft="509.666666666667,189">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-152.166666666667,107"
-              Start="0,0"
-              End="-152.166666666667,99.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,39.4866310160428" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,39.4866310160428"
-                    Point2="0,43.4866310160428"
-                    Point3="-4,43.4866310160428" />
-                  <mssgle:LineSegment
-                    End="-148.166666666667,43.4866310160428" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-148.166666666667,43.4866310160428"
-                    Point2="-152.166666666667,43.4866310160428"
-                    Point3="-152.166666666667,47.4866310160428" />
-                  <mssgle:LineSegment
-                    End="-152.166666666667,99.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-113.614212239583,48.4866310160428,75.0617578125,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="164,42"
-          Id="Package\Limpieza Fechas\Columna derivada"
-          TopLeft="236,382" />
-        <EdgeLayout
-          Id="Package\Limpieza Fechas.Paths[Salida de conversión de datos]"
-          TopLeft="357.5,338">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-39.5,44"
-              Start="0,0"
-              End="-39.5,36.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,18"
-                    Point2="0,22"
-                    Point3="-4,22" />
-                  <mssgle:LineSegment
-                    End="-35.5,22" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-35.5,22"
-                    Point2="-39.5,22"
-                    Point3="-39.5,26" />
-                  <mssgle:LineSegment
-                    End="-39.5,36.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="186,42"
-          Id="Package\Limpieza Fechas\Destino de ADO NET 1"
-          TopLeft="566,444" />
-        <EdgeLayout
-          Id="Package\Limpieza Fechas.Paths[Salida de error de columna derivada]"
-          TopLeft="400,403">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="166,62"
-              Start="0,0"
-              End="158.5,62">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="79,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="79,0"
-                    Point2="83,0"
-                    Point3="83,4" />
-                  <mssgle:LineSegment
-                    End="83,58" />
-                  <mssgle:CubicBezierSegment
-                    Point1="83,58"
-                    Point2="83,62"
-                    Point3="87,62" />
-                  <mssgle:LineSegment
-                    End="158.5,62" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="2.63597656250001,-15.7490234375,160.728046875,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="148,42"
-          Id="Package\Limpieza Fechas\Guardar Fecha"
-          TopLeft="218,507" />
-        <EdgeLayout
-          Id="Package\Limpieza Fechas.Paths[Salida de columna derivada]"
-          TopLeft="318,424">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-26,83"
-              Start="0,0"
-              End="-26,75.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,37.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,37.5"
-                    Point2="0,41.5"
-                    Point3="-4,41.5" />
-                  <mssgle:LineSegment
-                    End="-22,41.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-22,41.5"
-                    Point2="-26,41.5"
-                    Point3="-26,45.5" />
-                  <mssgle:LineSegment
-                    End="-26,75.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Limpieza Sucursales\Guardar Sucursal">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Limpieza Sucursales\Guardar Region">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Limpieza Fechas\Destino de ADO NET">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Limpieza Fechas\Origen de OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Limpieza Ventas">
     <LayoutInfo>
@@ -15058,13 +15397,41 @@ where [refTable].[fecha] = ?</property>
           Id="Package\Limpieza Ventas\Busqueda Sucursal"
           TopLeft="240,509" />
         <NodeLayout
-          Size="149,42"
-          Id="Package\Limpieza Ventas\Buscar Artículo"
-          TopLeft="250,408" />
+          Size="160,42"
+          Id="Package\Limpieza Ventas\Busqueda Cliente"
+          TopLeft="246,592" />
+        <NodeLayout
+          Size="148,42"
+          Id="Package\Limpieza Ventas\Columna Vacia"
+          TopLeft="459,147" />
         <NodeLayout
           Size="175,42"
           Id="Package\Limpieza Ventas\Conversión de datos"
           TopLeft="241,323" />
+        <NodeLayout
+          Size="125,42"
+          Id="Package\Limpieza Ventas\Búsqueda"
+          TopLeft="356,842" />
+        <NodeLayout
+          Size="164,42"
+          Id="Package\Limpieza Ventas\Columna derivada"
+          TopLeft="597,816" />
+        <NodeLayout
+          Size="164,42"
+          Id="Package\Limpieza Ventas\Origen de OLE DB"
+          TopLeft="506,40" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Limpieza Ventas\Destino de ADO NET"
+          TopLeft="848,150" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Limpieza Ventas\Destino de ADO NET 1"
+          TopLeft="646,368" />
+        <NodeLayout
+          Size="168,42"
+          Id="Package\Limpieza Ventas\Destino de OLE DB"
+          TopLeft="891,817" />
         <NodeLayout
           Size="148,42"
           Id="Package\Limpieza Ventas\Columna Vacía"
@@ -15074,86 +15441,166 @@ where [refTable].[fecha] = ?</property>
           Id="Package\Limpieza Ventas\Buscar Vendedor"
           TopLeft="245,773" />
         <NodeLayout
-          Size="160,42"
-          Id="Package\Limpieza Ventas\Busqueda Cliente"
-          TopLeft="246,592" />
-        <NodeLayout
           Size="143,42"
           Id="Package\Limpieza Ventas\Buscar region"
           TopLeft="257,688" />
         <NodeLayout
-          Size="164,42"
-          Id="Package\Limpieza Ventas\Origen de OLE DB"
-          TopLeft="506,40" />
+          Size="177,42"
+          Id="Package\Limpieza Ventas\Destino de OLE DB 2"
+          TopLeft="1054,908" />
         <NodeLayout
-          Size="176,42"
-          Id="Package\Limpieza Ventas\Destino de ADO NET 1"
-          TopLeft="646,368" />
+          Size="149,42"
+          Id="Package\Limpieza Ventas\Buscar Artículo"
+          TopLeft="250,408" />
         <NodeLayout
-          Size="148,42"
-          Id="Package\Limpieza Ventas\Columna Vacia"
-          TopLeft="459,147" />
+          Size="189,42"
+          Id="Package\Limpieza Ventas\Agregar Detalle archivo"
+          TopLeft="284,84" />
         <NodeLayout
-          Size="176,42"
-          Id="Package\Limpieza Ventas\Destino de ADO NET"
-          TopLeft="848,150" />
+          Size="177,42"
+          Id="Package\Limpieza Ventas\Destino de OLE DB 1"
+          TopLeft="773,890" />
         <EdgeLayout
-          Id="Package\Limpieza Ventas.Paths[ColumnaVacia]"
-          TopLeft="556.333333333333,189">
+          Id="Package\Limpieza Ventas.Paths[Salida de error de conversión de datos]"
+          TopLeft="416,344">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="137.666666666667,92"
+              EndConnector="230,45"
               Start="0,0"
-              End="137.666666666667,84.5">
+              End="222.5,45">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,33.3903743315508" />
+                    End="111,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,33.3903743315508"
-                    Point2="0,37.3903743315508"
-                    Point3="4,37.3903743315508" />
+                    Point1="111,0"
+                    Point2="115,0"
+                    Point3="115,4" />
                   <mssgle:LineSegment
-                    End="133.666666666667,37.3903743315508" />
+                    End="115,41" />
                   <mssgle:CubicBezierSegment
-                    Point1="133.666666666667,37.3903743315508"
-                    Point2="137.666666666667,37.3903743315508"
-                    Point3="137.666666666667,41.3903743315508" />
+                    Point1="115,41"
+                    Point2="115,45"
+                    Point3="119,45" />
                   <mssgle:LineSegment
-                    End="137.666666666667,84.5" />
+                    End="222.5,45" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="37.3524544270833,42.3903743315508,62.9617578125,9.7490234375"
+              BoundingBox="29.2567578125,-16.3349609375,171.486484375,10.3349609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Limpieza Ventas.Paths[Salida de error de división condicional]"
-          TopLeft="607,169.5">
+          Id="Package\Limpieza Ventas.Paths[Salida de error de columna derivada]"
+          TopLeft="679,858">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="241,0"
+              EndConnector="182.5,32"
               Start="0,0"
-              End="233.5,0">
+              End="182.5,24.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="233.5,0" />
+                    End="0,12" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12"
+                    Point2="0,16"
+                    Point3="4,16" />
+                  <mssgle:LineSegment
+                    End="178.5,16" />
+                  <mssgle:CubicBezierSegment
+                    Point1="178.5,16"
+                    Point2="182.5,16"
+                    Point3="182.5,20" />
+                  <mssgle:LineSegment
+                    End="182.5,24.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="32.96220703125,5,167.5755859375,10.3349609375"
+              BoundingBox="10.8859765625,21,160.728046875,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Ventas.Paths[Salida de entradas coincidentes de búsqueda5]"
+          TopLeft="481,863">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="116,-26"
+              Start="0,0"
+              End="108.5,-26">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="54,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="54,0"
+                    Point2="58,0"
+                    Point3="58,-4" />
+                  <mssgle:LineSegment
+                    End="58,-22" />
+                  <mssgle:CubicBezierSegment
+                    Point1="58,-22"
+                    Point2="58,-26"
+                    Point3="62,-26" />
+                  <mssgle:LineSegment
+                    End="108.5,-26" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-41.8190234375,1,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Ventas.Paths[Salida de entradas coincidentes de búsqueda4]"
+          TopLeft="324.5,815">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="94,27"
+              Start="0,0"
+              End="94,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,9.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,9.5"
+                    Point2="0,13.5"
+                    Point3="4,13.5" />
+                  <mssgle:LineSegment
+                    End="90,13.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="90,13.5"
+                    Point2="94,13.5"
+                    Point3="94,17.5" />
+                  <mssgle:LineSegment
+                    End="94,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-52.8190234375,18.5,199.638046875,12.1953125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -15206,38 +15653,26 @@ where [refTable].[fecha] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Limpieza Ventas.Paths[Salida de error de conversión de datos]"
-          TopLeft="416,344">
+          Id="Package\Limpieza Ventas.Paths[Salida de entradas coincidentes de búsqueda1]"
+          TopLeft="325,551">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="230,45"
+              EndConnector="0,41"
               Start="0,0"
-              End="222.5,45">
+              End="0,33.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="111,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="111,0"
-                    Point2="115,0"
-                    Point3="115,4" />
-                  <mssgle:LineSegment
-                    End="115,41" />
-                  <mssgle:CubicBezierSegment
-                    Point1="115,41"
-                    Point2="115,45"
-                    Point3="119,45" />
-                  <mssgle:LineSegment
-                    End="222.5,45" />
+                    End="0,33.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="29.2567578125,-16.3349609375,171.486484375,10.3349609375"
+              BoundingBox="-99.8190234375,10.65234375,199.638046875,12.1953125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -15266,26 +15701,116 @@ where [refTable].[fecha] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Limpieza Ventas.Paths[Salida de entradas coincidentes de búsqueda1]"
-          TopLeft="325,551">
+          Id="Package\Limpieza Ventas.Paths[Salida de conversión de datos]"
+          TopLeft="326.5,365">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,41"
+              EndConnector="0,43"
               Start="0,0"
-              End="0,33.5">
+              End="0,35.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,33.5" />
+                    End="0,35.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-99.8190234375,10.65234375,199.638046875,12.1953125"
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Ventas.Paths[Salida de columna derivada1]"
+          TopLeft="473,110.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="60,36.3333333333333"
+              Start="0,0"
+              End="60,28.8333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="56,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="56,0"
+                    Point2="60,0"
+                    Point3="60,4" />
+                  <mssgle:LineSegment
+                    End="60,28.8333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Ventas.Paths[Salida de columna derivada]"
+          TopLeft="761,837.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="130,0"
+              Start="0,0"
+              End="122.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="122.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Limpieza Ventas.Paths[ColumnaVacia]"
+          TopLeft="556.333333333333,189">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="137.666666666667,92"
+              Start="0,0"
+              End="137.666666666667,84.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33.3903743315508" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,33.3903743315508"
+                    Point2="0,37.3903743315508"
+                    Point3="4,37.3903743315508" />
+                  <mssgle:LineSegment
+                    End="133.666666666667,37.3903743315508" />
+                  <mssgle:CubicBezierSegment
+                    Point1="133.666666666667,37.3903743315508"
+                    Point2="137.666666666667,37.3903743315508"
+                    Point3="137.666666666667,41.3903743315508" />
+                  <mssgle:LineSegment
+                    End="137.666666666667,84.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="37.3524544270833,42.3903743315508,62.9617578125,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -15326,178 +15851,6 @@ where [refTable].[fecha] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Limpieza Ventas.Paths[Salida de conversión de datos]"
-          TopLeft="326.5,365">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,43"
-              Start="0,0"
-              End="0,35.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,35.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="125,42"
-          Id="Package\Limpieza Ventas\Búsqueda"
-          TopLeft="356,842" />
-        <EdgeLayout
-          Id="Package\Limpieza Ventas.Paths[Salida de entradas coincidentes de búsqueda4]"
-          TopLeft="324.5,815">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="94,27"
-              Start="0,0"
-              End="94,19.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,9.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,9.5"
-                    Point2="0,13.5"
-                    Point3="4,13.5" />
-                  <mssgle:LineSegment
-                    End="90,13.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="90,13.5"
-                    Point2="94,13.5"
-                    Point3="94,17.5" />
-                  <mssgle:LineSegment
-                    End="94,19.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-52.8190234375,18.5,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="164,42"
-          Id="Package\Limpieza Ventas\Columna derivada"
-          TopLeft="597,816" />
-        <EdgeLayout
-          Id="Package\Limpieza Ventas.Paths[Salida de entradas coincidentes de búsqueda5]"
-          TopLeft="481,863">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="116,-26"
-              Start="0,0"
-              End="108.5,-26">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="54,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="54,0"
-                    Point2="58,0"
-                    Point3="58,-4" />
-                  <mssgle:LineSegment
-                    End="58,-22" />
-                  <mssgle:CubicBezierSegment
-                    Point1="58,-22"
-                    Point2="58,-26"
-                    Point3="62,-26" />
-                  <mssgle:LineSegment
-                    End="108.5,-26" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-41.8190234375,1,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="168,42"
-          Id="Package\Limpieza Ventas\Destino de OLE DB"
-          TopLeft="891,817" />
-        <EdgeLayout
-          Id="Package\Limpieza Ventas.Paths[Salida de columna derivada]"
-          TopLeft="761,837.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="130,0"
-              Start="0,0"
-              End="122.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="122.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="177,42"
-          Id="Package\Limpieza Ventas\Destino de OLE DB 1"
-          TopLeft="773,890" />
-        <EdgeLayout
-          Id="Package\Limpieza Ventas.Paths[Salida de error de columna derivada]"
-          TopLeft="679,858">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="182.5,32"
-              Start="0,0"
-              End="182.5,24.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,12" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12"
-                    Point2="0,16"
-                    Point3="4,16" />
-                  <mssgle:LineSegment
-                    End="178.5,16" />
-                  <mssgle:CubicBezierSegment
-                    Point1="178.5,16"
-                    Point2="182.5,16"
-                    Point3="182.5,20" />
-                  <mssgle:LineSegment
-                    End="182.5,24.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="10.8859765625,21,160.728046875,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="189,42"
-          Id="Package\Limpieza Ventas\Agregar Detalle archivo"
-          TopLeft="284,84" />
-        <EdgeLayout
           Id="Package\Limpieza Ventas.Paths[Salida de origen de OLE DB]"
           TopLeft="506,61">
           <EdgeLayout.Curve>
@@ -15528,41 +15881,35 @@ where [refTable].[fecha] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Limpieza Ventas.Paths[Salida de columna derivada1]"
-          TopLeft="473,110.666666666667">
+          Id="Package\Limpieza Ventas.Paths[Salida de error de división condicional]"
+          TopLeft="607,169.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="60,36.3333333333333"
+              EndConnector="241,0"
               Start="0,0"
-              End="60,28.8333333333333">
+              End="233.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="56,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="56,0"
-                    Point2="60,0"
-                    Point3="60,4" />
-                  <mssgle:LineSegment
-                    End="60,28.8333333333333" />
+                    End="233.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="32.96220703125,5,167.5755859375,10.3349609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="177,42"
-          Id="Package\Limpieza Ventas\Destino de OLE DB 2"
-          TopLeft="1054,908" />
         <EdgeLayout
           Id="Package\Limpieza Ventas.Paths[Salida de error de destino de OLE DB]"
           TopLeft="975,859">
@@ -15603,6 +15950,29 @@ where [refTable].[fecha] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Limpieza Ventas\Búsqueda">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Fecha]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Limpieza Ventas\Origen de OLE DB">
     <Properties>
       <Property>
@@ -15616,46 +15986,20 @@ where [refTable].[fecha] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Limpieza Fechas\Destino de ADO NET 1">
+    design-time-name="Package\Limpieza Ventas\Destino de OLE DB">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Limpieza Fechas\Guardar Fecha">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Limpieza Ventas\Búsqueda">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[Fecha]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Limpieza Ventas\Destino de OLE DB">
+    design-time-name="Package\Limpieza Ventas\Destino de OLE DB 2">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -15681,15 +16025,10 @@ where [refTable].[fecha] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Limpieza Ventas\Destino de OLE DB 2">
+    design-time-name="Package\Limpieza Fechas\Destino de ADO NET 2">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
