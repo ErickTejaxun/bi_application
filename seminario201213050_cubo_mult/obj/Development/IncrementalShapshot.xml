@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>seminario201213050_cubo_mult</Database>
+    <Server>DESKTOP-FNFHPSN\MSSQLSERVER3</Server>
+    <ConnectionString>Data Source=DESKTOP-FNFHPSN\MSSQLSERVER3;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>t36IygaclGoMfm1MvGPRIZhPqgQ=16/06/2020 1:40:0617/06/2020 0:57:00</TimeStamp>
+        <ID>
+          <String>SourceSeminario201213050</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>091M+Im8l2+bgnOe1wx4VWcr8zM=16/06/2020 1:01:1917/06/2020 0:57:00</TimeStamp>
+        <ID>
+          <String>VistaSeminario201213050</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eKHGczzI/kTkSwNCJA3EWwyGW7U=16/06/2020 1:40:4617/06/2020 0:57:00</TimeStamp>
+        <ID>
+          <String>DimensionArticulo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ar1TrA2bqQ6ouZstV4nEfzjZl6E=16/06/2020 1:04:2517/06/2020 0:57:00</TimeStamp>
+        <ID>
+          <String>DimensionCliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fi344CBu8iuXytWu7AwZK5SsNmo=16/06/2020 18:29:1417/06/2020 0:57:00</TimeStamp>
+        <ID>
+          <String>DimensionFecha</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/geJHJqppKh9d/EeerRWr9sT070=16/06/2020 1:06:1717/06/2020 0:57:00</TimeStamp>
+        <ID>
+          <String>DimensionRegion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hkk4ad1BaCwRHkgeS4FF1ujEUSU=16/06/2020 1:07:4017/06/2020 0:57:00</TimeStamp>
+        <ID>
+          <String>DimensionSucursal</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VQePO6oHJ49/GPurcaMXSM+y5cA=16/06/2020 1:08:1717/06/2020 0:57:00</TimeStamp>
+        <ID>
+          <String>DimensionVendedor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>uM973U1LrYWk0GtlaB3MnCGs3c0=16/06/2020 18:29:1317/06/2020 0:57:00k5FUVcILtvXZFEQp1Df3uACOei4=16/06/2020 1:42:5317/06/2020 0:57:00</TimeStamp>
+        <ID>
+          <String>Cubo</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>1USAdj5gYkgp3/xTwB9ns1wmTvM=16/06/2020 0:59:3517/06/2020 0:57:00</TimeStamp>
+      <ID>
+        <String>seminario201213050_cubo_mult</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-06-16T23:27:28.606667Z</LastDeployed>
+</DeploymentSnapshot>
